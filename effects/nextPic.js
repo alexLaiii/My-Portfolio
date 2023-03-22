@@ -2,12 +2,12 @@
 $(document).ready(function(){
     // Important, after added each pic, remember to add it to this array!!! 
     var images = [
-        "../images/myself2.JPG",
-        "../images/christmas1.JPG",
-        "../images/food1.JPG",
-        "../images/food2.JPG",
-        "../images/food3.JPG",
-        "../images/food4.JPG"
+        "./images/myself2.JPG",
+        "./images/christmas1.JPG",
+        "./images/food1.JPG",
+        "./images/food2.JPG",
+        "./images/food3.JPG",
+        "./images/food4.JPG"
     ];
     var currentIndex = 0;
   
