@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://kit.fontawesome.com/f970204744.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+  <title>Chi Ming Lai - Portfolio</title>
+  <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+
+  <header >
+    <nav>
+      <div class="logo">
+        <a href="index.html">Chi Ming Lai</a>
+      </div>
+      <ul class="nav-menu">
+        <li id="home-link"><a href="index.html" class="hvr-float-shadow" data-duration="500">Home</a></li>
+        <li id="about-link"><a href="about.html" class="hvr-float-shadow" data-duration="500">About</a></li>
+        <li id="education-link"><a href="education.html" class="hvr-float-shadow" data-duration="500">Education</a></li>
+        <li id="experience-link"><a href="experience.html" class="hvr-float-shadow" data-duration="500">Experience</a></li>
+        <li id="contact-link"><a href="contact.html" class="hvr-float-shadow" data-duration="500">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+  <section id="home" class="transparent-section">
+    <div data-aos="fade-up">
+      <img src="/images/half_me.png" alt="Alex" class="front-profile-image">
+    </div>
+    <h1 data-aos="fade-up" class="big-title">WELCOME</h1>
+    <h2 data-aos="fade-up">MY NAME IS</h2>
+    <h1 data-aos="fade-up">ALEX LAI</h1>
+    <hr data-aos="fade-up"/>
+    <br/>
+    <p data-aos="fade-up" class="subtitle">WEB DEVELOPER, SOFTWARE DEVELOPER, PROGRAMMER</p>
+    <!---->
+    <h2>
+      <div class="button" data-aos="fade-up">
+        <a href="/file//Resume.pdf" download="Alex_Lai_Resume.pdf" class="button">
+          <i class="fa-solid fa-scroll fa-flip" style="--fa-flip-x: 1; --fa-flip-y: 0;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Download My Resume
+        </a>
+      </div>
+    </h2>
+    
+
+    <!---->
+    <h1>
+    <div class="scroll-indicator" data-aos="fade-up">
+      <p>Scroll to see my projects</p>
+      <h1><i class="scroll-arrow" >⮟</i></h1>
+    </div>
+  </h1>
+    
+    <hr/>
+  </section>
+
+  <section id="scroll-content" class="transparent-section scroll-indicator" data-aos="fade-up">
+    <h2 class="project-big-title">MY PROJECTS</h2>
+    <a href="https://my-app-tau-gules.vercel.app/" target="_blank">
+      <div class="project" data-aos="fade-up">
+        <div class="project-description">
+          <h3>Museum Artifact Search Application</h3>
+          <p class="project-content">
+            Developed a React web application with a RESTful API that allows users to search for museum artifacts by keyword, view images and descriptions of the artifacts, and save artifacts to their favorites list.
+          </p>
+        
+        </div>
+        <div class="vertical-line"></div>
+        <div class="project-image" >
+          <img src="/images/project1.jpg" alt="Project 1 Image">
+        </div>
+      </div>
+    </a>
+    <a href="https://movie-app-rho-ruddy.vercel.app/about/" target="_blank">
+      <div class="project" data-aos="fade-up">
+        <div class="project-description">
+          <h3>Movie Search Application</h3>
+          <p class="project-content">
+            Developed a web application that allows users to search and discover movies, view detailed information about individual movies, and add movies to their watchlist
+  Utilized React, Next.js, and The Movie Database (TMDb) API to fetch and display movie data
+  Implemented responsive design for an optimal user experience on both mobile and desktop devices
+
+          </p>
+      
+        </div>
+        <div class="vertical-line"></div>
+        <div class="project-image">
+          <img src="/images/project2.jpg" alt="Project 2 Image">
+        </div>
+      </div>
+    </a>
+    <a href="https://github.com/f051a0303/product-management/tree/main/ms3" target="_blank">
+      <div class="project" data-aos="fade-up">
+        <div class="project-description">
+          <h3>Assembly Line Simulation</h3>
+          <p class="project-content">
+            Created a C++ program for academic purposes that simulates an assembly line using object-oriented programming.
+            Modeled the process of a product from start to finish as it moves through each step of the assembly line.
+            Gained hands-on experience with OOP principles and software design.          
+          </p>
+          
+        </div>
+        <div class="vertical-line"></div>
+        <div class="project-image">
+          <img src="https://jackziegler.com/wp-content/uploads/2017/07/TCB-52715.jpg" alt="Project 3 Image">
+        </div>
+      </div>
+    </a>  
+  </section>
+
+  
+  <footer>
+    &copy; 2023 Chi Ming Lai. All rights reserved.
+  </footer>
+  <script src="./effects/Animations.js"></script>
+  <script src="./effects/scrollEffect.js"></script>
+  <script src="./effects/navBarHandler.js"></script>
+</body>
+
+</html>

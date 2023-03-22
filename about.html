@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/f970204744.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>About - Chi Ming Lai</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/about.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <a href="index.html">Chi Ming Lai</a>
+          </div>
+          <ul class="nav-menu">
+            <li id="home-link"><a href="index.html" class="hvr-float-shadow" data-duration="500">Home</a></li>
+            <li id="about-link"><a href="about.html" class="hvr-float-shadow" data-duration="500">About</a></li>
+            <li id="education-link"><a href="education.html" class="hvr-float-shadow" data-duration="500">Education</a></li>
+            <li id="experience-link"><a href="experience.html" class="hvr-float-shadow" data-duration="500">Experience</a></li>
+            <li id="contact-link"><a href="contact.html" class="hvr-float-shadow" data-duration="500">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+    <section class="about-content about-grid" id="home" data-aos="fade-left" >
+        <div class="about-text">
+            <h3 class="about-title">About Me</h3>
+            <hr/>
+            <p class="about">
+                I am a passionate web developer, software developer, and programmer with experience in creating
+                applications using technologies like React, Next.js, and C++. I enjoy learning new programming
+                languages and exploring new technologies to keep up with the ever-evolving world of software
+                development.
+            </p>
+
+            <div class="section">
+                <h3>My Interests</h3>
+                <p>
+                    Outside of programming, I have a keen interest in music, photography, and traveling. I love to
+                    explore new places and cultures, capture memories through my camera lens, and play various musical
+                    instruments in my free time.
+                </p>
+            </div>
+
+            <div class="section">
+                <h3>My Future Goals</h3>
+                <p>
+                    My future goals include further expanding my knowledge in the field of software development and
+                    contributing to open-source projects. I also aspire to create innovative applications that have a
+                    meaningful impact on people's lives and help make the world a better place.
+                </p>
+            </div>
+        </div>
+        <div class="profile-image-container">
+            <img id="profile-image" src="/images/half_me.png" alt="Alex" class="about-profile-image">
+          <div class="nav-buttons">
+              <div class="previous-button" id="previous-button"><i class="fas fa-chevron-left"></i></div>
+              <div class="dot-container">
+                  <!-- The dot will be generate by JQUERY in "nextPic.js"-->
+              </div>
+              <div class="next-button" id="next-button"><i class="fas fa-chevron-right"></i></div>
+          </div>
+      </div>
+    </section>
+    <br/><br/><br/><br/><br/><br/>
+
+    <footer>
+        &copy; 2023 Chi Ming Lai. All rights reserved.
+    </footer>
+    <script src="./effects/Animations.js"></script>
+    <script src="./effects/scrollEffect.js"></script>
+    <script src="./effects/nextPic.js"></script>
+    <script src="./effects/navBarHandler.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+#resume{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #fff;
+    position: relative;
+  }
