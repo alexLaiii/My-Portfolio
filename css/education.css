@@ -21,6 +21,7 @@
 
 .education-text {
     width: 70%;
+    border-top: 1px solid #969393;
 }
 
 .education-title {
@@ -53,9 +54,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .education-image {
     max-width: 100%;
     border-radius: 5px;
+    
 }

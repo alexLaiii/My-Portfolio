@@ -48,7 +48,8 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 3rem;
   padding: 2rem;
-  margin-left: 6rem;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 h3 {
@@ -69,6 +70,7 @@ h3 {
   font-size: 1.5rem;
   line-height: 1.6;
   text-align: justify;
+  margin-bottom: 2rem;
 }
 
 /* the photo nav buttons */
@@ -118,8 +120,21 @@ h3 {
   background-color: rgba(35, 74, 38, 0.635);
 }
 
-
-
-
-
-
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+  .about-title{
+    font-size: 3.5rem;
+  }
+  .about-text {
+    font-size: 1rem;
+  }
+  
+  .about-grid {
+    grid-template-columns: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .profile-image-container {
+    margin-right: 0;
+  }
+}
